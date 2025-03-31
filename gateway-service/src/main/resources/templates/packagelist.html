@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>여행 패키지 목록</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<h1>여행 패키지 목록</h1>
+<ul id="package-list">
+  <!-- 패키지 목록이 여기 동적으로 추가됨 -->
+</ul>
+
+<script>
+  $(document).ready(function() {
+    $.ajax({
+      url: '/product-service/packages', // Gateway 경유 URI
+      method: 'GET',
+      success: function(data) {
+        data.forEach(function(pkg) {
+          $('#package-list').append(
+                  `<li><strong>${pkg.title}</strong> - 가격: ${pkg.price}원</li>`
+          );
+        });
+      },
+      error: function() {
+        alert('패키지 목록 불러오기 실패');
+      }
+    });
+  });
+</script>
+</body>
+</html>

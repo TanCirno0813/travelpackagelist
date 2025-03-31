@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="msa_miniblog.post-service.main" />
+        <module name="msa_miniblog.board-service.main" />
+        <module name="msa_miniblog.travel-product-service.main" />
+        <module name="msa_miniblog.eureka-server.main" />
+        <module name="msa_miniblog.game-service.main" />
+        <module name="msa_miniblog.order-service.main" />
+        <module name="msa_miniblog.gateway-service.main" />
+        <module name="msa_miniblog.product-service.main" />
+        <module name="msa_miniblog.user-service.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>

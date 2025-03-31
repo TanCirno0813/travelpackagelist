@@ -1,0 +1,11 @@
+rootProject.name = 'msa_miniblog'
+
+include 'gateway-service'
+include 'eureka-server'
+include 'product-service'
+include 'order-service'
+include 'board-service'
+include 'user-service'
+include 'post-service'
+include 'game-service'
+include 'travel-product-service'
