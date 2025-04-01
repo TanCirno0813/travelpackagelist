@@ -1,33 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>여행 패키지 목록</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+      margin-bottom: 50px;
+    }
+
+    .search-section {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    .package-card {
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+
+    .package-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .price-tag {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 8px 15px;
+      border-radius: 25px;
+      font-weight: bold;
+      color: #ff3366;
+    }
+
+    .package-features {
+      margin-top: 15px;
+    }
+
+    .feature-icon {
+      width: 20px;
+      margin-right: 8px;
+      color: #666;
+    }
+
+    .sort-btn {
+      border: 1px solid #dee2e6;
+      background: white;
+      padding: 8px 20px;
+      margin: 5px;
+      border-radius: 25px;
+      color: #495057;
+      transition: all 0.3s ease;
+    }
+
+    .sort-btn.active {
+      background: #ff3366;
+      color: white;
+      border-color: #ff3366;
+    }
+
+    .package-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      height: 2.8em;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .price-highlight {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ff3366;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-<h1>여행 패키지 목록</h1>
-<ul id="package-list">
-  <!-- 패키지 목록이 여기 동적으로 추가됨 -->
-</ul>
+<!-- Hero Section -->
+<div class="hero-section text-center">
+  <div class="container">
+    <h1 class="display-4 mb-4">특별한 여행을 시작하세요</h1>
+    <p class="lead mb-4">전세계 아름다운 목적지로의 특별한 여행</p>
 
+    <!-- Search Section -->
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="search-section">
+          <div class="input-group">
+            <input type="text" id="searchKeyword" class="form-control" placeholder="여행지를 입력하세요 (예: 일본)">
+            <button class="btn btn-primary" id="searchBtn">
+              <i class="fas fa-search"></i> 검색
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--    <div class="row justify-content-center mt-3">-->
+<!--      <div class="col-md-6">-->
+<!--        <div class="search-section">-->
+<!--          <div class="input-group mb-2">-->
+<!--            <input type="number" id="minPrice" class="form-control" placeholder="최소 가격 (원)">-->
+<!--            <input type="number" id="maxPrice" class="form-control" placeholder="최대 가격 (원)">-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+  </div>
+</div>
+
+<div class="container mb-5">
+  <!-- Sort Buttons -->
+  <div class="text-center mb-4">
+    <div class="btn-group" role="group" id="sortButtons">
+      <button class="sort-btn active" data-sort="id,desc">최신순</button>
+      <button class="sort-btn" data-sort="id,asc">오래된순</button>
+      <button class="sort-btn" data-sort="price,asc">낮은 가격순</button>
+      <button class="sort-btn" data-sort="price,desc">높은 가격순</button>
+      <button class="sort-btn" data-sort="title,asc">가나다순</button>
+      <button class="sort-btn" data-sort="title,desc">reverse 가나다순</button>
+    </div>
+  </div>
+
+  <!-- Package List -->
+  <div class="row g-4" id="package-list">
+    <!-- 패키지 목록이 여기 동적으로 추가됨 -->
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
   $(document).ready(function() {
-    $.ajax({
-      url: '/packages', // Gateway 경유 URI
-      method: 'GET',
-      success: function(data) {
-        data.forEach(function(pkg) {
-          $('#package-list').append(
-                  `<li><strong>${pkg.title}</strong> - 가격: ${pkg.price}원</li>`
-          );
-        });
-      },
-      error: function() {
-        alert('패키지 목록 불러오기 실패');
+    let currentSort = 'id';
+
+    function loadPackages(url, sort = 'id') {
+      $('#package-list').empty();
+      let requestUrl = url;
+      if (url.startsWith('/packages') && !url.includes('/search')) {
+        requestUrl += `?sort=${sort}`;
+      }
+
+      $.ajax({
+        url: requestUrl,
+        method: 'GET',
+        success: function(response) {
+          const packages = response.content ? response.content : response;
+          if (packages.length === 0) {
+            $('#package-list').append('<div class="col-12 text-center">검색 결과가 없습니다.</div>');
+            return;
+          }
+          packages.forEach(function(pkg) {
+            $('#package-list').append(`
+                               <div class="col-md-6 col-lg-4">
+                                    <a href="/packages/${pkg.id}" style="text-decoration: none; color: inherit;">
+                                      <div class="package-card card h-100">
+                                        <div class="position-relative">
+                                          <img src="${pkg.imageUrl}" class="card-img-top" alt="${pkg.title}">
+                                          <div class="price-tag">
+                                            ${pkg.price.toLocaleString()}원
+                                          </div>
+                                        </div>
+                                        <div class="card-body">
+                                          <h5 class="package-title">${pkg.title}</h5>
+                                          <div class="price-highlight">
+                                            ${pkg.price.toLocaleString()}원
+                                          </div>
+                                          <p class="card-text text-muted">${pkg.description}</p>
+                                          <div class="package-features">
+                                            <div class="mb-2">
+                                              <i class="fas fa-plane feature-icon"></i>
+                                              ${pkg.flightInfo}
+                                            </div>
+                                            <div class="mb-2">
+                                              <i class="fas fa-hotel feature-icon"></i>
+                                              ${pkg.hotelInfo}
+                                            </div>
+                                            <div class="mb-2">
+                                              <i class="fas fa-map-marker-alt feature-icon"></i>
+                                              ${pkg.tourInfo}
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </a>
+                                  </div>
+                            `);
+
+          });
+
+        },
+        error: function(xhr, status, error) {
+          console.error('Error:', error);
+          alert('패키지 목록 불러오기 실패');
+        }
+      });
+    }
+
+    // 초기 전체 목록
+    loadPackages('/packages');
+
+    // 정렬 버튼 클릭
+    $('.sort-btn').click(function() {
+      $('.sort-btn').removeClass('active');
+      $(this).addClass('active');
+
+      const sortParam = $(this).data('sort');
+      currentSort = sortParam;
+      const keyword = $('#searchKeyword').val();
+      if (keyword.trim() === '') {
+        loadPackages('/packages', currentSort);
+      } else {
+        loadPackages('/packages/search?keyword=' + encodeURIComponent(keyword));
+      }
+    });
+
+    // 검색 버튼
+    $('#searchBtn').click(function() {
+      const keyword = $('#searchKeyword').val();
+      if (keyword.trim() === '') {
+        loadPackages('/packages', currentSort);
+      } else {
+        loadPackages('/packages/search?keyword=' + encodeURIComponent(keyword));
+      }
+    });
+
+    // Enter 키
+    $('#searchKeyword').keypress(function(e) {
+      if (e.which == 13) {
+        $('#searchBtn').click();
       }
     });
   });
+
+
 </script>
 </body>
 </html>
