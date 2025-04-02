@@ -53,7 +53,11 @@ public class WebController {
 
 
 
-
+    @GetMapping("/package/detail/{id}")
+    public String packageDetailPage(@PathVariable Long id, Model model) {
+        model.addAttribute("packageId", id);
+        return "packagedetail"; // templates/packagedetail.html
+    }
 
 
 

@@ -23,4 +23,5 @@ public class TravelPackage {
     private String hotelInfo; // 숙소 이름
     private String tourInfo; // 투어 정보
     private String imageUrl;
+    private String date;
 }

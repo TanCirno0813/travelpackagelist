@@ -12,8 +12,9 @@ public class TravelPackageListDTO {
     private String title;
     private String description;
     private int price;
-    private String flightInfo;
-    private String hotelInfo;
-    private String tourInfo;
+//    private String flightInfo; 미사용
+//    private String hotelInfo; 미사용
+//    private String tourInfo; 미사용
     private String imageUrl;
+    private String date;
 }

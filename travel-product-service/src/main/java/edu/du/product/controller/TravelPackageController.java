@@ -21,7 +21,7 @@ public class TravelPackageController {
 
     @GetMapping
     public ResponseEntity<Page<TravelPackageListDTO>> getPackages(
-            @RequestParam(defaultValue = "popular") String sort,
+            @RequestParam(defaultValue = "id,desc") String sort,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size
     ) {
@@ -32,9 +32,10 @@ public class TravelPackageController {
     public ResponseEntity<List<TravelPackageListDTO>> searchPackages(
             @RequestParam(required = false) String keyword,
             @RequestParam(required = false) Integer minPrice,
-            @RequestParam(required = false) Integer maxPrice
+            @RequestParam(required = false) Integer maxPrice,
+            @RequestParam(defaultValue = "id,desc") String sort
     ) {
-        return ResponseEntity.ok(service.searchPackages(keyword, minPrice, maxPrice));
+        return ResponseEntity.ok(service.searchPackages(keyword, minPrice, maxPrice, sort));
     }
 
 }
