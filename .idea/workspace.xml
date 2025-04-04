@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5d58eec-e0d6-4f34-9c05-7a38711debab" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/detail-page/msa_miniblog.detail-page.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/board-service/msa_miniblog.board-service.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/order-service/msa_miniblog.order-service.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/BoardApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/config/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/controller/PostController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/dto/CommentDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/entity/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/repository/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/repository/PostRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/classes/java/main/com/example/board/service/PostService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/tmp/compileJava/compileTransaction/stash-dir/WebController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/BoardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/config/DataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/dto/CommentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/entity/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/repository/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/repository/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/com/example/board/service/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/build/classes/java/main/com/example/gatewayservice/controller/WebController$Ranking.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/build/classes/java/main/com/example/gatewayservice/controller/WebController$Ranking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/build/classes/java/main/com/example/gatewayservice/controller/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/build/classes/java/main/com/example/gatewayservice/controller/WebController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/build/tmp/compileJava/compileTransaction/stash-dir/WebController$Ranking.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/build/tmp/compileJava/compileTransaction/stash-dir/WebController.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/classes/java/main/com/example/order/OrderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/classes/java/main/com/example/order/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/classes/java/main/com/example/order/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/classes/java/main/com/example/order/repository/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/resources/main/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/resources/main/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/tmp/compileJava/compileTransaction/stash-dir/Order.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/tmp/compileJava/compileTransaction/stash-dir/OrderController.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/tmp/compileJava/compileTransaction/stash-dir/OrderRepository.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/order/OrderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/order/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/order/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/order/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/build/classes/java/main/edu/du/product/controller/TravelPackageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/travel-product-service/build/classes/java/main/edu/du/product/controller/TravelPackageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/build/classes/java/main/edu/du/product/entity/TravelPackage$TravelPackageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/travel-product-service/build/classes/java/main/edu/du/product/entity/TravelPackage$TravelPackageBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/build/classes/java/main/edu/du/product/entity/TravelPackage.class" beforeDir="false" afterPath="$PROJECT_DIR$/travel-product-service/build/classes/java/main/edu/du/product/entity/TravelPackage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/build/classes/java/main/edu/du/product/service/TravelPackageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/travel-product-service/build/classes/java/main/edu/du/product/service/TravelPackageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/build/tmp/compileJava/compileTransaction/stash-dir/TravelPackageController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/build/tmp/compileJava/compileTransaction/stash-dir/TravelPackageService.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/travel-product-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/src/main/java/edu/du/product/controller/TravelPackageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/travel-product-service/src/main/java/edu/du/product/controller/TravelPackageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/src/main/java/edu/du/product/entity/TravelPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/travel-product-service/src/main/java/edu/du/product/entity/TravelPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel-product-service/src/main/java/edu/du/product/service/TravelPackageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/travel-product-service/src/main/java/edu/du/product/service/TravelPackageService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="msa_miniblog" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Vue Composition API Component" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2uvPsZO43LVqgAPZEBzh67QSEco" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.msa_miniblog 빌드.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BoardApplication.executor": "Run",
+    "Spring Boot.DetailPageApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GameApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.PostApplication.executor": "Run",
+    "Spring Boot.ProductApplication (1).executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/LTH_dev2/msa_miniblog/frontend/src/views",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\LTH_dev2\msa_miniblog\frontend\src\views" />
+      <recent name="C:\LTH_dev2\msa_miniblog" />
+      <recent name="C:\LTH_dev2\msa_miniblog\frontend\src" />
+      <recent name="C:\LTH_dev2\msa_miniblog\frontend" />
+      <recent name="C:\LTH_dev2\msa_miniblog\frontend\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\LTH_dev2\msa_miniblog\frontend\public\videos" />
+      <recent name="C:\LTH_dev2\msa_miniblog\frontend\src" />
+      <recent name="C:\LTH_dev2\msa_miniblog\gateway-service\src\main\resources" />
+      <recent name="C:\LTH_dev2\msa_miniblog\gateway-service\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.user.dto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductApplication (1)">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetailPageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_miniblog.detail-page.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.du.detailpage.DetailPageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_miniblog.eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="msa_miniblog.game-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.game.GameApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_miniblog.gateway-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="msa_miniblog.post-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.post.PostApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="msa_miniblog.travel-product-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.du.product.ProductApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.du.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DetailPageApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ProductApplication (1)" />
+      <item itemvalue="Spring Boot.GameApplication" />
+      <item itemvalue="Spring Boot.PostApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProductApplication (1)" />
+        <item itemvalue="Spring Boot.PostApplication" />
+        <item itemvalue="Spring Boot.GameApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="d5d58eec-e0d6-4f34-9c05-7a38711debab" name="변경" comment="" />
+      <created>1743126281920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743126281920</updated>
+      <workItem from="1743126282935" duration="23695000" />
+      <workItem from="1743410863137" duration="5151000" />
+      <workItem from="1743463371248" duration="10296000" />
+      <workItem from="1743486013379" duration="14526000" />
+      <workItem from="1743552042034" duration="5883000" />
+      <workItem from="1743564718097" duration="100000" />
+      <workItem from="1743564910551" duration="14035000" />
+      <workItem from="1743636241939" duration="5383000" />
+      <workItem from="1743649935569" duration="17822000" />
+      <workItem from="1743676095298" duration="1346000" />
+      <workItem from="1743722368568" duration="24666000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

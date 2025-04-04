@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/board-service/msa_miniblog.board-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/board-service/msa_miniblog.board-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/detail-page/msa_miniblog.detail-page.main.iml" filepath="$PROJECT_DIR$/.idea/modules/detail-page/msa_miniblog.detail-page.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/msa_miniblog.eureka-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/msa_miniblog.eureka-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/game-service/msa_miniblog.game-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/game-service/msa_miniblog.game-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-service/msa_miniblog.gateway-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-service/msa_miniblog.gateway-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/msa_miniblog.order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/msa_miniblog.order-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/post-service/msa_miniblog.post-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/post-service/msa_miniblog.post-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-product-service/msa_miniblog.travel-product-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-product-service/msa_miniblog.travel-product-service.main.iml" />
     </modules>

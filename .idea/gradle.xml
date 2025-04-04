@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/board-service" />
+            <option value="$PROJECT_DIR$/detail-page" />
             <option value="$PROJECT_DIR$/eureka-server" />
             <option value="$PROJECT_DIR$/game-service" />
             <option value="$PROJECT_DIR$/gateway-service" />

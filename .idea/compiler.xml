@@ -9,6 +9,7 @@
         </processorPath>
         <module name="msa_miniblog.post-service.main" />
         <module name="msa_miniblog.board-service.main" />
+        <module name="msa_miniblog.detail-page.main" />
         <module name="msa_miniblog.travel-product-service.main" />
         <module name="msa_miniblog.eureka-server.main" />
         <module name="msa_miniblog.game-service.main" />

@@ -59,11 +59,6 @@ public class WebController {
         return "packagedetail"; // templates/packagedetail.html
     }
 
-
-
-
-
-
     @GetMapping("/post")
     public String post() {
         return "post"; // templates/post.html
@@ -112,4 +107,4 @@ public class WebController {
         public String getNickname() { return nickname; }
         public int getScore() { return score; }
     }
-} 
+}

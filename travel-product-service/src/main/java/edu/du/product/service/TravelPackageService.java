@@ -42,7 +42,7 @@ public class TravelPackageService {
                         .build());
     }
 
-    public List<TravelPackageListDTO> searchPackages(String keyword, Integer minPrice, Integer maxPrice, String sort) {
+    public List<TravelPackageListDTO> searchPackages(String keyword, Integer minPrice, Integer maxPrice, String duration,String sort) {
         String[] sortParams = sort != null ? sort.split(",") : new String[]{"id", "desc"};
         String sortBy = sortParams[0];
         boolean isAsc = sortParams.length > 1 && sortParams[1].equalsIgnoreCase("asc");
@@ -51,6 +51,7 @@ public class TravelPackageService {
                 .filter(pkg -> (keyword == null || keyword.isEmpty()) || pkg.getTitle().contains(keyword))
                 .filter(pkg -> minPrice == null || pkg.getPrice() >= minPrice)
                 .filter(pkg -> maxPrice == null || pkg.getPrice() <= maxPrice)
+                .filter(pkg -> (duration == null || duration.isEmpty()) || pkg.getDate().equals(duration)) // ⭐️ 기간 필터 추가
                 .map(pkg -> TravelPackageListDTO.builder()
                         .id(pkg.getId())
                         .title(pkg.getTitle())
@@ -76,7 +77,7 @@ public class TravelPackageService {
                 .sorted(comparator)
                 .collect(Collectors.toList());
     }
-    @GetMapping("/{id}")
+
     public ResponseEntity<TravelPackageListDTO> getPackageDetail(@PathVariable Long id) {
         TravelPackage entity = repository.findById(id)
                 .orElseThrow(() -> new RuntimeException("패키지 없음"));
